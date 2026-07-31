@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    body {
+        font-family: sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+        margin-bottom: 30px;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #007BFF;
+        color: white;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    code {
+        background: #f1f1f1;
+        padding: 2px 6px;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CURRICULUM VITAE</h1>
+
+        <nav>
+            <a href="#education" style="color: #ffdd57; margin-right: 15px;">
+                Educational Qualification
+            </a>
+
+            <a href="#projects" style="color: #ffdd57; margin-right: 15px;">
+                Projects
+            </a>
+
+            <a href="#skills" style="color: #ffdd57; margin-right: 15px;">
+                Skills
+            </a>
+
+            <a href="#enquiry" style="color: #ffdd57;">
+                Enquiry Form
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="education">
+
+            <h2>Educational Qualification</h2>
+
+            <p>
+                My educational qualifications are listed below in table format for clarity and easy reference.
+            </p>
+
+            <table>
+
+                <caption>Educational Qualifications</caption>
+
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>BTech in computer science</td>
+                        <td>K L University</td>
+                        <td>2025-2029</td>
+                        <td>95%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Sri Chaitanya Junior College</td>
+                        <td>2023-2025</td>
+                        <td>90%</td>
+                    </tr>
+
+                    <tr>
+                        <td>SSC</td>
+                        <td>Sri Chaitanya High School</td>
+                        <td>2023</td>
+                        <td>94%</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <p>
+                The following are some of the projects that I have completed.
+            </p>
+
+            <h3>Project 1 - Profile Creation in Github</h3>
+
+            <p>
+                In this project, I created a professional profile on GitHub,
+                showcasing my skills and projects. This involved setting up a
+                repository, adding a README file, and organizing my work in a
+                way that highlights my abilities to potential employers or collaborators.
+            </p>
+
+            <p>
+                <strong>Technologies Used:</strong>
+                HTML, CSS, JavaScript
+            </p>
+
+            <h4>Project 2 - Library Management System</h4>
+
+            <p>
+                This project involved developing a Library Management System
+                using Data Structures. The system allows users to manage book
+                inventories, track borrowed books, and maintain user records
+                efficiently. It includes features such as adding new books,
+                issuing books to members, and generating reports on library usage.
+            </p>
+
+            <p>
+                <strong>Technologies Used:</strong>
+                Data Structures, C
+            </p>
+
+        </section>
+
+
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <p>
+                I have developed a range of skills through my education and
+                projects. Below is a list of my key skills:
+            </p>
+
+            <ul>
+                <li>Programming Languages: C, Java, Python</li>
+                <li>Web Development: HTML, CSS</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Version Control: Git and GitHub</li>
+                <li>Problem Solving and Analytical Thinking</li>
+            </ul>
+
+        </section>
+
+
+        <section id="enquiry">
+
+            <h2>Enquiry Form</h2>
+
+            <p>
+                If you have any questions or would like to get in touch,
+                please fill out the enquiry form below.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="name">Name:</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+
+                <label for="email">Email:</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <label for="message">Message:</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
